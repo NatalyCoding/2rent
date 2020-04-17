@@ -19,6 +19,12 @@ body {
     color: #000000;
 }
 
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 button {
     cursor: pointer;
 }
@@ -149,6 +155,55 @@ button {
     height: 18px;
     top: 26px;
     left: 15px;
+}
+
+.popular {
+    text-align: center;
+}
+
+.popular__title {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #ffffff;
+    background: #000000;
+    padding: 18px 15px;
+}
+
+.popular__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.popular__img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.popular__item-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #888888;
+    padding: 30px 10px;
+}
+
+.popular__link {
+    background: #c4c4c4;
+    color: #ffffff;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 13px 48px;
+}
+
+.popular__link:hover {
+    background: #000000;
 }
 
 @media (max-width: 992px) {
