@@ -210,10 +210,11 @@ button {
 .reason__inner {
     display: flex;
     justify-content: space-between;
+    padding: 100px 0;
 }
 
 .reason__item {
-    width: 470px;
+    width: 450px;
 }
 
 .reason__title {
@@ -264,6 +265,37 @@ button {
     height: 30px;
     left: 0;
     top: -4px;
+}
+
+.best {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: right;
+}
+
+.best__title {
+    max-width: 492px;
+    padding-top: 68px;
+    margin: 0 0 15px auto;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+    color: #ffffff;
+}
+
+.best__link {
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 18px;
+    display: inline-block;
+}
+
+.best__link:hover {
+    background: #888888;
 }
 
 @media (max-width: 1220px) {
