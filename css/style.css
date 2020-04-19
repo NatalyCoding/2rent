@@ -487,6 +487,9 @@ button {
         width: 400px;
         height: 400px;
     }
+    .best {
+        min-height: 80%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -502,6 +505,27 @@ button {
     .popular__img {
         width: 280px;
         height: 280px;
+    }
+    .reason__inner {
+        flex-wrap: wrap;
+    }
+    .reason__item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .reason__title {
+        min-height: 60px;
+        padding-left: 60px;
+    }
+    .reason__title::before {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .best {
+        min-height: 600px;
     }
 }
 
@@ -520,6 +544,9 @@ button {
     }
     .popular__item {
         width: 100%;
+    }
+    .best {
+        min-height: 400px;
     }
 }
 
@@ -552,6 +579,14 @@ button {
         font-size: 36px;
         line-height: 42px;
     }
+    .reason__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .best__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -563,5 +598,12 @@ button {
     }
     .search__form-btn::before {
         display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .reason__title {
+        font-size: 24px;
+        line-height: 28px;
     }
 }
