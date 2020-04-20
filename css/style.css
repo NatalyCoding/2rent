@@ -320,6 +320,7 @@ button {
     line-height: 48px;
     font-weight: 400;
     text-align: center;
+    padding: 70px 0 0;
 }
 
 .our-managers {
@@ -358,7 +359,8 @@ button {
 }
 
 .blog {
-    width: 411px;
+    width: 410px;
+    padding: 0 30px;
 }
 
 .blog__link {
@@ -492,6 +494,25 @@ button {
     }
 }
 
+@media (max-width: 1140px) {
+    .about__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__top-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__menu {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer__menu-list {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
 @media (max-width: 992px) {
     .search__form {
         flex-wrap: wrap;
@@ -526,6 +547,38 @@ button {
     }
     .best {
         min-height: 600px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about__inner {
+        display: block;
+    }
+    .our-managers {
+        margin: 0 auto;
+    }
+    .blog {
+        margin: 50px 0;
+        max-width: 420px;
+        width: auto;
+    }
+    .reviews {
+        margin: 0 auto;
+        min-width: 420px;
+    }
+    .footer__form {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__form-label {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .footer__form-input {
+        margin-bottom: 20px;
+        width: 100%;
+        min-width: 300px;
     }
 }
 
@@ -585,6 +638,10 @@ button {
     }
     .best__title {
         font-size: 28px;
+        line-height: 32px;
+    }
+    .about__title {
+        ont-size: 28px;
         line-height: 32px;
     }
 }
